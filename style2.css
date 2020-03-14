@@ -1,0 +1,20 @@
+body{
+    /*background-image: url("images/food3.jpg");*/
+    background-color: gray;
+}
+.Text{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(11, 54, 30);
+    border-bottom: solid chocolate 2px;
+    text-align: center;
+    margin: 2%;
+    padding: 0.5%;
+   
+}
+img{
+    float: left;
+    width: 30%;
+    height: 350px;
+    margin: 1.66%;
+}

@@ -1,0 +1,67 @@
+/* Element  [tag] */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:lightgreen;
+    /* border: solid 15px lightgray; */
+    margin: 10px auto;
+}
+
+header{
+    background-color:  rgba(146, 14, 14, 0.205);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: solid 1px; */
+    padding: 5px 30px;
+    margin-top: 100px;
+    
+}
+article {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.title{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.date{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* changing the nature block/inline */
+nav > ul > li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+
+nav > ul > li >a{
+    text-decoration: none;
+
+}
+
+nav > ul > li  :hover{
+    background-color:#ffffff ;
+}
+img{
+    width: 300px; 
+    height: 300px;
+    border-radius: 100%;
+    float:left;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+#clear{
+    clear: left;
+}
