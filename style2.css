@@ -1,6 +1,7 @@
 body{
     /*background-image: url("images/food3.jpg");*/
     background-color: gray;
+    display: flex;
 }
 .Text{
     font-size: 30px;

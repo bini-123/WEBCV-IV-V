@@ -1,3 +1,4 @@
+
 .nav_bar{
     padding: 0;
     margin: 0;
@@ -87,7 +88,23 @@ label.logo{
     line-height: 22px;
 }
 
+.frame_{
 
+    width: 400px;
+    height: 500px;
+}
+.leftframe{
+    width: 50%;
+    float: left;
+    padding:10px;
+}
 
-
+.rightframe{
+    width: 50px;
+    padding: 10px;
+    float: left;
+}
+.under{
+    padding: 20px;
+}
 
