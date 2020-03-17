@@ -1,0 +1,119 @@
+
+body{
+    background-color: darkgrey;
+    font-family:'roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    margin: 10px;
+}
+p::first-letter{
+    text-transform: uppercase;
+}
+header{
+    background-color: rgba(253, 253, 253, 0.877);
+    position: fixed;
+    top: 0px;
+    width: 98% ;
+    margin-bottom: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content{
+    position: static;
+}
+
+section{
+    background-color: #fff;
+    border-right: 1px solid rgba(230, 230, 230, 0.74);
+    border-bottom: 1px solid rgba(230, 230, 230, 0.74);
+    border-radius: 20px;
+    margin: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+}
+
+    
+article{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.clear{
+    clear: both;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+}
+.date{
+    font-style: oblique;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-top : 1px dotted dimgray;
+    padding-left: 20px;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin: 0% 1%;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+
+
+nav>ul>li:hover{
+    background-color: darkgray;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+nav>ul>li>a:visited{color: black;}
+nav>ul>li>a:hover{color: #fff;}
+nav>ul>li>a:active{color: slategray;}
+
+#content{
+    margin-top: 80px;
+}
+
+#profile{
+    float: left;
+    border-radius: 20px;
+    border-style: hidden;
+    margin: 20px;
+}
+#contact>p>a{
+    clear:left;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+#work{
+    width: 30%;
+    height: 4em;
+    font-size:1000%;
+    font-weight: bolder;
+    text-decoration: none;
+    float: left;
+    margin: 1.33%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px ;
+}
+#questions{
+    width: 100%;
+}
+#work:hover{
+    width: 33%;
+    height: 4.2em;
+    margin: 0%;
+}
+div>a>img{
+    
+    max-height: 2.7em;
+    max-width: 100%;
+    clear: both;
+    display: block;
+}
