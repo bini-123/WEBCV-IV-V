@@ -3,91 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>float</title>
-    <link rel="stylesheet" href="flag.css">
+    <title>mywork</title>
+    
     <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="selector.css">
+    <link rel="stylesheet" href="tictactoe.css">
+    <link rel="stylesheet" href="flag.css">
 </head>
+<style>
+  body{
+    display: flexbox;
+  }
+</style>
 <body>
-    <div class="nav_bar">
-        <nav>
-            <label class="logo"> Gedle K.</label>
-            <ul>
-                    <li ><a href="index.html">HOME</a></li>
-                   <li> <a href="contact.html">CONTACT</a> </li> 
-                    <li> <a href="gallery.html">GALLERY</a> </li>
-                    <li> <a href="blog.html">BLOG</a> </li>
-                    <li><a href="mywork.html">MY WORK</a> </li>
-                
-            </ul>
-        </nav>
-</div> 
+  <div class="nav_bar">
+    <nav>
+        <label class="logo"> Gedle K.</label>
+        <ul>
+                <li class="active"><a href="index.html">HOME</a></li>
+               <li> <a href="contact.html">CONTACT</a> </li> 
+                <li> <a href="gallery.html">GALLERY</a> </li>
+                <li> <a href="blog.html">BLOG</a> </li>
+                <li><a href="mywork.html">MY WORK</a> </li>
+            
+        </ul>
+    </nav>
+</div>
+
+
+
+<br>
+
+<div>
+    <h1>Selectors Exercise</h1>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+<div class="one">
+  <p class="hello">I am a paragraph with a class</p>
+  <p id="special">I am a paragraph with an ID</p>
+
+  <h2>I am an awesome h2</h2>
+  
+  
+  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBR&B McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever.</p>
+
+</div>
+
+<div class="two">
+  <h2>Things I need to do</h2>
+
+  <ul>
+    <li>Walk Dog <input type="checkbox" checked> </li>
+    <li>Feed Dog <input type="checkbox" checked> </li>
+    <li>Wash Dog <input type="checkbox"></li>
+  </ul>
+</div>
+
+<div class="three">
+  <h2>I am another awesome h2</h2>
+
+  <p>Cardigan Tumblr mlkshk, fap tilde 3 wolf moon Portland. Heirloom health goth taxidermy blog lo-fi selfies, 
+    post-ironic master cleanse fingerstache normcore. Kickstarter plaid twee, 
+    bespoke single-origin coffee sustainable lo-fi vinyl Pinterest pork belly 
+    <em>cronut skateboard</em> 3 wolf moon. 
+    Normcore single-origin coffee salvia, bespoke Austin swag Godard before they sold out kogi disrupt locavore.
+     Lumbersexual Shoreditch Vice, artisan American Apparel master cleanse yr salvia vegan.
+      Bespoke letterpress heirloom kale chips deep v four loko.
+       Lomo sustainable put a bird on it trust fund post-ironic</p>
+
+  <p>I'm the second paragraph inside this div!</p>
+</div>
+
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+
+<div class="four">
+  <h2>A less awesome h2</h2>
+
+  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBR&B McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever</p>
+
+  <p>One last paragraph here!</p>
+  <br>
+  <a href="http://www.facebook.com"> I am a link to facebook</a> <br> <br> 
+  <a href="http://www.facebook.com"> I am another link to facebook</a>
+  <br>
+  <br>
+  <input type="text" name="name" /> 
+  <label> Name </label> <br/>
+  <input type="password" name="password" />
+  <label> Password</label> <br/>
+
+</div>
+<br>
+<p>PARAGRAPH NOT INSIDE A DIV</p>
+
+</div>
+<table class="tictac">
+  <h1 class="tic">Tic Tac Toe</h1>
     
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="hori"></td>
+            <td class="vert hori"></td>
+            <td class="hori"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+  
+</table>    
 
+<div>  
+  <div class="flag spain"></div>
 
+  <div class=" flag kuwait"></div>
 
-    <div class="flag spain"></div>
+  <div class="flag italy"></div>
 
-    <div class=" flag kuwait"></div>
+  <div class="flag india"></div>
 
-    <div class="flag italy"></div>
+  <div class="flag tgambia">
+      <div></div>
+      <div></div>
+  </div>
+  
+ 
+  
 
-    <div class="flag india"></div>
+<div class="flag pnewguinea"></div>
 
-    <div class="flag tgambia">
-        <div></div>
-        <div></div>
-    </div>
-    
-   
-    
+  <div class=" flag iceland">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
 
- <div class="flag pnewguinea"></div>
+  <div class="flag denmark">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
 
-    <div class=" flag iceland">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+  <div class=" flag bhutan"></div>
 
-    <div class="flag denmark">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+  <div class="flag belgium"></div>
 
-    <div class=" flag bhutan"></div>
-
-    <div class="flag belgium"></div>
-
-    <div class="flag czechia"></div>
-    
-    <div class="flag timorleste">
-        <div><div></div></div>
-        <div></div>
-    </div>
-    
-    <div class="flag eritrea"></div>
-    
-    
-    <div class="flag greece">
-        
-            <div><!-- cross -->
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <!-- 5 stripes next to cross -->
-            <div></div>
-            <div></div>
-        
-           <!-- remaining strikes -->
-        <div></div>
-        <div></div>
-    </div>
-    
-    
+  <div class="flag czechia"></div>
+  
+  <div class="flag timorleste">
+      <div><div></div></div>
+      <div></div>
+  </div>
+  
+  <div class="flag eritrea"></div>
+  
+  
+  <div class="flag greece">
+      
+          <div><!-- cross -->
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <!-- 5 stripes next to cross -->
+          <div></div>
+          <div></div>
+      
+         <!-- remaining strikes -->
+      <div></div>
+      <div></div>
+  </div>
+</div>
 </body>
 </html>

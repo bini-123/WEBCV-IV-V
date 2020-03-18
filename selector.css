@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    margin-top: auto;
+    background:#bdc3c7;
+}
+
+h1{
+    background: #9b59b6;
+    text-shadow: 3px 3px blueviolet;    
+}
+h2{
+    background: orange;
+}
+li{
+    background:blue ;
+}
+p{
+    background: yellow;
+}
+input{ 
+    border-radius: 1px;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    background-color: blue;
+    border: solid;
+    border-radius: 2px;
+    
+    
+}
+div > p{
+    font-size: 25px;
+}
+/* #txt{
+    background-color: gray;
+} */
+
+.three p{
+    background-color: pink;
+}
+
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+.three p:nth-of-type(2){
+    /* border-radius: 5px; */
+    color: white;
+    border-radius: 5px;
+}
+.three {
+    background-color: white;
+    font-size: 20px;
+}
+
+.three em{
+    font-size: 20px;
+    color: white;
+}
+div>ul>li{
+    margin-left: 50px;
+}
+
+/* checkbox */
+input:checked{
+    margin-left: 50px;
+}
+h1:hover{
+    background-color: blue;
+}
+.four >a:visited{
+    background-color:gray;
+}
+
+/* id = " special"  */
+.one > #special::first-letter{
+    font-size: 100px;
+    color: green;
+}
+.four >label{
+    text-transform: uppercase;
+}
