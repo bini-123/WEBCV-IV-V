@@ -5,6 +5,7 @@
 body{
     margin-top: auto;
     background:#bdc3c7;
+    display: flexbox;
 }
 
 h1{
@@ -14,9 +15,9 @@ h1{
 h2{
     background: orange;
 }
-li{
+/* li{
     background:blue ;
-}
+} */
 p{
     background: yellow;
 }

@@ -1,5 +1,6 @@
 body{
     background-color: lightskyblue;
+    display: flexbox;
 }
 .tic{
     text-align: center;

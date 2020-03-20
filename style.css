@@ -5,6 +5,7 @@
 }
 body{
     background-color:lightgreen;
+    display: flexbox;
     /* border: solid 15px lightgray; */
     margin: 10px auto;
 }
